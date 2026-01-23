@@ -37,10 +37,10 @@ int main() {
         }
         
         // Process execution
-        currentTime += processes[i].burstTime;
+        currentTime += processes[i].burstTime; 
         processes[i].completionTime = currentTime;
-        processes[i].turnaroundTime = processes[i].completionTime - processes[i].arrivalTime;
-        processes[i].waitingTime = processes[i].turnaroundTime - processes[i].burstTime;
+        processes[i].turnaroundTime = processes[i].completionTime - processes[i].arrivalTime; 
+        processes[i].waitingTime = processes[i].turnaroundTime - processes[i].burstTime; 
     }
     
     // Display results

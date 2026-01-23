@@ -42,8 +42,8 @@ int main() {
     }
     
     // Display results
-    cout << "\n========== SHORTEST JOB FIRST (SJF) SCHEDULING ALGORITHM ==========\n\n";
-    cout << left << setw(6) << "PID" 
+    cout << "\n==========SHORTEST JOB FIRST (SJF) SCHEDULING ALGORITHM ==========\n\n";
+    cout << left <<  setw(6) << "PID" 
          << setw(12) << "BT" 
          << setw(12) << "TAT" 
          << setw(12) << "WT" << endl;
